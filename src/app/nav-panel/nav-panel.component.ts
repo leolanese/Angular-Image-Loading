@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -17,6 +16,7 @@ import { RouterModule } from '@angular/router';
         <li><a routerLink="/deferplaceholder">Defer placeholder</a></li>
         <li><a routerLink="/deferloading">Defer loading</a></li>
         <li><a routerLink="/deferonwhen">Defer on/when</a></li>
+        <li><a routerLink="/deferoninteraction">Defer on interaction/when</a></li>
       </ul>
     </nav>
   `,

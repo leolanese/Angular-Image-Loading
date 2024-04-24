@@ -6,6 +6,7 @@ import { OptimisedMediumImagesComponent } from './optimised-medium-images/optimi
 import { DeferPlaceholderComponent } from './defer-placeholder/defer-placeholder.component';
 import { DeferLoadingComponent } from './defer-loading/defer-loading.component';
 import { DeferOnWhenComponent } from './defer-on-when/defer-on-when.component';
+import { DeferOninteractionComponent } from './defer-oninteraction/defer-oninteraction.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/defaults', pathMatch: 'full' },
@@ -15,6 +16,7 @@ export const routes: Routes = [
   { path: 'deferplaceholder', component: DeferPlaceholderComponent },
   { path: 'deferloading', component: DeferLoadingComponent },
   { path: 'deferonwhen', component: DeferOnWhenComponent },
+  { path: 'deferoninteraction', component: DeferOninteractionComponent },
   
 ];
 
