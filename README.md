@@ -1,4 +1,4 @@
-# AngularImageOptimisation
+# Angular Image Optimisation
 
 > Speed +LCP, Lazy Loads images be default + Automaticly generats Responsive srcsets when sizes is defined
 
