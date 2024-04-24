@@ -11,7 +11,7 @@ import { IMAGE_CONFIG, IMAGE_LOADER, ImageLoaderConfig, NgOptimizedImage, provid
     {
       provide: IMAGE_CONFIG,
       useValue: {
-        breakpoints: [380, 640, 1200, 1920, 2048, 3840],
+        breakpoints: [340, 640, 1200, 1920, 2048, 3480],
         placeholderResolution: 25
       }
     }
