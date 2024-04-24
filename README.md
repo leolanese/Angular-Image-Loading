@@ -1,5 +1,31 @@
 # AngularImageOptimisation
 
+> Speed +LCP, Lazy Loads images be default + Automaticly generats Responsive srcsets when sizes is defined
+
+> To activate `NgOptimizedImage`, simply import `NgOptimizedImage` and replace the src attribute of your <img> tag with `ngSrc`
+
+## What NgOptimizedImage does?
+
+`Prioritizing Important Images`: NgOptimizedImage allows you to prioritize the loading of important images, ensuring that the most critical images are rendered first, providing a better perceived loading experience for users.
+
+`Lazy Loading`: NgOptimizedImage employs lazy loading, which means that images are only loaded when they are needed, such as when the user scrolls to the part of the page where the image is located. This can significantly improve the initial page load time.
+
+`Preconnect Link`: NgOptimizedImage can generate `<link rel="preconnect">` tags, which instruct the browser to establish early connections to the image server(s). This can reduce latency and speed up the loading of images.
+
+`Responsive Images`: Correct. NgOptimizedImage automatically generates responsive image variants based on the device's screen size and resolution. This ensures that users receive optimized images tailored to their devices, preventing the delivery of unnecessarily large images, which can slow down the website's performance.
+
+
+## Solutions
+
+### Examples of 
+### Configuring an image loader for NgOptimizedImage using Medium
+### Configuring an image loader for NgOptimizedImage using unsplash
+
+
+> The image loaders provider pattern is designed to be as simple as possible for the common use case of having only a single image CDN used within a component. However, it's still very possible to manage multiple image CDNs using a single provider.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
 ## Development server
