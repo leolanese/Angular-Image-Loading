@@ -15,12 +15,12 @@
 `Responsive Images`: Correct. NgOptimizedImage automatically generates responsive image variants based on the device's screen size and resolution. This ensures that users receive optimized images tailored to their devices, preventing the delivery of unnecessarily large images, which can slow down the website's performance.
 
 
-## Solutions
+## Ideas
 
-### Examples of 
-### Configuring an image loader for NgOptimizedImage using Medium
-### Configuring an image loader for NgOptimizedImage using unsplash
-
+> Default Angular 17+ NgOptimizedImage playground tests
+> Configuring an image loader for NgOptimizedImage using Medium
+> Configuring an image loader for NgOptimizedImage using unsplash
+> @Defer Angular 17+ playground tests
 
 > The image loaders provider pattern is designed to be as simple as possible for the common use case of having only a single image CDN used within a component. However, it's still very possible to manage multiple image CDNs using a single provider.
 

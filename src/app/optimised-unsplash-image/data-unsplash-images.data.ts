@@ -1,0 +1,40 @@
+
+export const dataUnsplashImages = [
+  {
+    title: 'Unsplash Image 1',
+    id: 'photo-1688996527958-aebc74186508',
+    srcset: '800w, 1600w',
+    sizes: '(max-width: 1600px) 800px, 1600px',
+    width: 800,
+    height: 450,
+    decoding: 'sync',
+    quality: 80,
+    priority: true,
+  },
+  {
+    title: 'Unsplash Image 2',
+    id: 'photo-1689260699512-4702d5927cea',
+    srcset: '800w, 1600w',
+    sizes: '(max-width: 1600px) 800px, 1600px',
+    width: 800,
+    height: 450,
+    fill: false,
+    decoding: 'auto',
+    loading: 'lazy',
+    quality: 80,
+    priority: false,
+  },
+  {
+    title: 'Unsplash Image 3',
+    id: 'photo-1713609039323-776fdab02399',
+    srcset: '800w, 1600w',
+    sizes: '(max-width: 1600px) 800px, 1600px',
+    width: 800,
+    height: 950,
+    fill: false,
+    decoding: 'auto',
+    loading: 'lazy',
+    quality: 80,
+    priority: false,
+  }
+];
