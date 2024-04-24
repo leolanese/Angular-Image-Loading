@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   imports: [NgOptimizedImage],
   template: `
       <img
-        alt="Optimized Medium Image"
+        alt="Optimised Medium Image"
         ngSrc="1*HNZPFINf7SzM_aBcXDi42Q.png"
         sizes="(max-width: 400px) 100vw, (max-width: 1200px) 50vw, 100vw"
         width="600"

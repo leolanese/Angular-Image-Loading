@@ -5,7 +5,8 @@ import { OptimisedUnsplashImageComponent } from '../optimised-unsplash-image/opt
   selector: 'app-defer-loading',
   standalone: true,
   imports: [      
-    OptimisedUnsplashImageComponent],
+    OptimisedUnsplashImageComponent
+  ],
   template: `
       @defer {  
         <optimised-unsplash-image />
