@@ -13,6 +13,8 @@ import { ImageLoader1Component } from '../image-loader1/image-loader1.component'
         <optimised-unsplash-image />
       } @loading (after 1ms; minimum 1s) {
         <img alt="loading..." src="./assets/loading.gif" />
+      } @error { 
+        <div>Fail to load: Error!</div>
       }
   `,
 })

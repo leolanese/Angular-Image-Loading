@@ -14,6 +14,8 @@ import { ImageLoader1Component } from '../image-loader1/image-loader1.component'
         <optimised-unsplash-image />
       } @placeholder (minimum 500ms) {
         <p>Placeholder content</p>
+      } @error { 
+        <div>Fail to load: Error!</div>
       }
     `,
 })

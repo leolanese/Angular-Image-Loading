@@ -16,6 +16,7 @@ import { RouterModule } from '@angular/router';
         <li><a routerLink="/medium">Image Medium</a></li>
         <li><a routerLink="/deferplaceholder">Defer placeholder</a></li>
         <li><a routerLink="/deferloading">Defer loading</a></li>
+        <li><a routerLink="/deferonwhen">Defer on/when</a></li>
       </ul>
     </nav>
   `,
